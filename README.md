@@ -1,6 +1,7 @@
-# Directed Weighted Graph Implementation
-![DWG](https://user-images.githubusercontent.com/75171676/147607766-9762bbfd-e67f-42a6-8499-afb91fe7fac4.jpg)
+# Pokemon Game:
+![ForReadme (2)](https://user-images.githubusercontent.com/75171676/148666044-4e5a07ec-cac0-49f3-8d69-4a724cfcf1f9.jpeg)
 
+__Game Implementation:__
 * __Algorithms:__
       <br>*In terms of algorithms, we managed to implement a graph by using 3 dictionaries - first dictionary was made for vertices, second dictionary was made for the edges that are
       going inside a specified vertex and the third dictionary was made for the edges that are going outside a specified vertex.
@@ -18,29 +19,21 @@
             <br>1) Shortest Path.<br />
             <br>2) Save.<br />
             <br>3) Load.<br />
-            <br>4) TSP (Travelling Salesman Problem).<br />
-            <br>5) Center.*<br />
+            <br>4) TargetedNode*<br />
        
 * __Tests:__
-      <br>*For every single function that was implemented in the project, we managed to make for them tests - which asserts if our work actually does work or not.*<br />
+      <br>*For every single function that was implemented in the project, we managed to make tests for them - which asserts if our work actually does work or not.*<br />
       
-* __Graphical User Interface:__
-      <br>*Finally, we were told to make a GUI and to check ourselves wether we are able to display each one of the graphs that were given or not.
-      We used matplotlib in order to perform this stage, an easy-to-use built-in library in Python that provides such service. We have gotten 6 different graphs we had to             display.
-      Named as the following - A0, A1, A2, A3, A4 and A5. We uploaded their displaying in the wiki, feel free to take a look at them.*<br />
-      
-* __Comparison:__
-      <br>*Therefore, we have made a comparison regarding functions performances velocity between Python & Java.
-      The following table illustrates the differences between the 2 languages:*<br />
-      
-     ![Comparison](https://user-images.githubusercontent.com/75171676/147607505-bc2a3b89-5b14-4f35-be14-81746c129331.PNG)
+* __PYGAME:__
+      <br>*PYGAME library was used for the GUI. We had a built one from the lecturer, and we adding some customization for it.
+      PYGAME's window include the following: Nodes, Edges, Agents & Pokemons.
+      The Agents must be eating the Pokemons using paths that should lead him to eat the Pokemon as fast as possible.
+      For that step, we used shortestPath function in order to let the Agent go through the fastest path that leads him into the Pokemon and eat it.*<br />
       
 * __How To Run:__
-      <br>*We made our own customized main named in MyMain.py
-      Simply press the run button of MyMain.py and it will display the whole graphs that were given.
-      You can also take a look at the wiki, we uploaded each graph's display there too.
-      Here is a sneakpeak of a single graph displaying as well:*<br />
-      
-     ![A5GUI](https://user-images.githubusercontent.com/75171676/147608575-3fda2500-3a80-4f26-9ab8-470a8071a861.png)
+      <br>*A .jar file was uploaded named: Ex4_Server_v0.0.jar
+      After downloading this file, upload to the project. Then, open the terminal and use the follwing command: java -jar Ex4_Server_v0.0.jar
+      By doing this step, you will be connected to a local host, then you will have to run student_code.py file.
+      Once the whole steps get successfully done - the game must pop up on your screen automatically.*<br />
 
                   
