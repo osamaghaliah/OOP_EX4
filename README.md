@@ -1,5 +1,7 @@
 # Pokemon Game:
-<div style="width:250px;max-width:100%;"><div style="height:0;padding-bottom:69.2%;position:relative;"><iframe width="250" height="173" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/60jys4"></iframe></div><p><a href="https://imgflip.com/gif/60jys4">via Imgflip</a></p></div>
+
+![ForReadme (2)](https://user-images.githubusercontent.com/75171676/148666701-214eedb7-8cd7-4824-8ba2-7f6f876025dd.jpeg)
+
 
 __Game Implementation:__
 * __Algorithms:__
